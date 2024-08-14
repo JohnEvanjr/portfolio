@@ -55,7 +55,7 @@ const Nav = () => {
         <div className="text-white font-thin text-3xl hidden md:block">JohnEvan</div>
         <div className="w-px h-8 mx-4 bg-white hidden md:block"></div>
         <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-white">
-          <img src="src/img/avademoportfo2.jpg" alt="Avatar" className="w-full h-full object-cover rounded-full" />
+          <img src={`${process.env.PUBLIC_URL}/src/img/avademoportgo2`} alt="Image" className="w-full h-full object-cover rounded-full"/>
         </div>
       </div>
     </nav>
