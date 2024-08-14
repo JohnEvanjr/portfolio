@@ -5,7 +5,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-28">
       <div className="grid md:grid-cols-2 gap-20 items-center">
         <div className="flex justify-center">
-          <img src={`${process.env.PUBLIC_URL}dist/img/avademoportfo.jpg`} alt="Image" className="rounded-full w-2/3 md:w-full"/>
+          <img src={`${process.env.PUBLIC_URL}/img/avademoportfo.jpg`} alt="Image" className="rounded-full w-2/3 md:w-full"/>
         </div>
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-6xl my-10 font-bold">Phạm Đình Văn</h1>
