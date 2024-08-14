@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color: #b6ddda;
+}
+.active{
+    border-bottom: 2px solid white;
+}
